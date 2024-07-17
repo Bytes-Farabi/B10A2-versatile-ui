@@ -17,7 +17,7 @@ ul{
     list-style-type: none;
 }
 .container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -28,7 +28,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .menu-side ul{
     display: flex;
