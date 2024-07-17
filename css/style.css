@@ -1,57 +1,104 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 90%;
     margin: 0 auto;
     background: #000000;
     font-family: "Inter", sans-serif;
 }
-a{
+
+a {
     color: #FFFFFF;
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-.container{
+
+.container {
     width: 90%;
     margin: 0 auto;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
 /* header design start here */
-.header-controller{
+.header-controller {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 3%;
 }
-.menu-side ul{
+
+.menu-side ul {
     display: flex;
     column-gap: 20px;
 }
-.logo-side h1{
+
+.logo-side h1 {
     color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: 800;
     line-height: 120%;
 }
-.menu-side{
+
+.menu-side {
     border: 1px solid #FFFFFF;
     border-radius: 30px;
     padding: 25px 10px;
 }
-.menu-side li a:hover{
+
+.menu-side li a:hover {
     background-color: #E6533C;
     border-radius: 30px;
 }
-.menu-side a{
+
+.menu-side a {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
     padding: 15px;
+}
+
+/* banner start here */
+.banner-section{
+    margin-top: 95px;
+}
+.banner-controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    width: 60%;
+}
+.banner-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-weight: 900;
+}
+.banner-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+.banner-button{
+    display: flex;
+    column-gap: 18px;
+}
+.banner-button button{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: 0px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
 }
