@@ -24,7 +24,26 @@ ul {
     width: 90%;
     margin: 0 auto;
 }
-
+.sectional-gap{
+    margin-top: 15%;
+}
+.bottom-gap{
+    margin-bottom: 8%
+}
+.center-text h1{
+    color: #FFFFFF;
+    font-size: 4em;
+    text-align: center;
+}
+.center-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
