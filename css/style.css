@@ -121,3 +121,28 @@ ul {
     color: white;
     font-size: 18px;
 }
+
+/* change habit section */
+.habit-image-controller{
+    display: flex;
+    justify-content: space-between;
+}
+.habit-image-content{
+    text-align: center;
+}
+.single-habit-text h3{
+    color: white;
+    margin: 30px 0px 15px 0px;
+}
+.single-habit-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.single-habit-image{
+    width: 100%;
+}
+.single-habit-image img{
+    width: 100%;
+    border-radius: 50%;
+}
