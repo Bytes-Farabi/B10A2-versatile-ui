@@ -24,18 +24,24 @@ ul {
     width: 90%;
     margin: 0 auto;
 }
-.sectional-gap{
+
+.sectional-gap {
     margin-top: 15%;
 }
-.bottom-gap{
+
+.bottom-gap {
     margin-bottom: 8%
 }
-.center-text h1{
+.top-gap{
+    margin-top: 8%;
+}
+.center-text h1 {
     color: #FFFFFF;
     font-size: 4em;
     text-align: center;
 }
-.center-text p{
+
+.center-text p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
@@ -44,6 +50,7 @@ ul {
     text-align: center;
     margin-top: 1em;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
@@ -86,34 +93,40 @@ ul {
 }
 
 /* banner start here */
-.banner-section{
+.banner-section {
     margin-top: 95px;
 }
-.banner-controller{
+
+.banner-controller {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner-text{
+
+.banner-text {
     width: 60%;
 }
+
 .banner-text h1 {
     color: rgb(255, 255, 255);
     font-size: 5em;
     font-weight: 900;
 }
-.banner-text p{
+
+.banner-text p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 15px;
     font-weight: 400;
     margin: 15px 0px;
 }
-.banner-button{
+
+.banner-button {
     display: flex;
     column-gap: 18px;
 }
-.banner-button button{
+
+.banner-button button {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: 0px;
@@ -123,26 +136,77 @@ ul {
 }
 
 /* change habit section */
-.habit-image-controller{
+.habit-image-controller {
     display: flex;
     justify-content: space-between;
+    gap: 5%;
 }
-.habit-image-content{
+
+.habit-image-content {
     text-align: center;
 }
-.single-habit-text h3{
+
+.single-habit-text h3 {
     color: white;
     margin: 30px 0px 15px 0px;
 }
-.single-habit-text p{
+
+.single-habit-text p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
 }
-.single-habit-image{
+
+.single-habit-image {
     width: 100%;
 }
-.single-habit-image img{
+
+.single-habit-image img {
     width: 100%;
     border-radius: 50%;
+}
+
+/* run extra starts here */
+.run-extra-main {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-extra-controller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    column-gap: 10%;
+}
+
+.run-extra-text h2 {
+    font-size: 2.5em;
+    color: white;
+}
+
+.run-extra-image {
+    width: 100%;
+}
+
+.run-extra-image img {
+    width: 100%;
+    border-radius: 8%;
+}
+
+.run-extra-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.primary-btn button {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: 0px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
 }
