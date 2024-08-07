@@ -135,6 +135,57 @@ ul {
     font-size: 18px;
 }
 
+/* positioning here */
+.banner-image{
+    position: relative;
+}
+.five{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 3%;
+    border-radius: 5%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.five-content{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 900;
+    /* padding: 1%; */
+}
+.five-content h5{
+    font-size: 0.6em;
+}
+
+/* the 350 */
+
+.three{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 3%;
+    border-radius: 5%;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}
+
+.three-content{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 900;
+    /* padding: 1%; */
+}
+.three-content h5{
+    font-size: 0.6em;
+}
+
+
 /* change habit section */
 .habit-image-controller {
     display: flex;
