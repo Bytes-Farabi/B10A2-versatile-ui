@@ -210,3 +210,54 @@ ul {
     color: white;
     font-size: 18px;
 }
+
+/* meet our team starts here */
+.image-container{
+    background-color: rgb(34, 34, 34);
+}
+.image-controller{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 3%;
+    width: 100%;
+    padding: 3%;
+}
+.image-container img{
+    width: 100%;
+    border-radius: 5%;
+}
+/* meet our team starts here */
+
+/* footer starts here */
+.footer-controller{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-side{
+    width: 50%;
+}
+.logo-side p{
+    color: rgb(167, 163, 163);
+    margin-top: 5%;
+}
+.footer-center h3{
+    color: white;
+    font-size: 1.3em;
+}
+.footer-center li a{
+    color: rgb(224, 214, 214);
+    font-size: 1.2em;
+}
+h5{
+    color: rgb(224, 214, 214);
+    margin: 5% 0%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* footer starts here */
