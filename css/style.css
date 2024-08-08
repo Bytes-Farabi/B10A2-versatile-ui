@@ -373,7 +373,86 @@ table td {
     border-radius: 5%;
 }
 
-/* meet our team starts here */
+/* text overlay */
+/* .image-controller{
+    position: relative;
+}
+.image-controller img{
+    position: relative;
+}
+.absolute-text{
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+} */
+
+.image-1{
+    background-image: url(../images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.image-2{
+    background-image: url(../images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;border-radius: 15px;
+}
+.image-3{
+    background-image: url(../images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.image-4{
+    background-image: url(../images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.image-5{
+    background-image: url(../images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.image-6{
+    background-image: url(../images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+.image-1 .image-2{
+    border: 1px solid darkblue;
+}
+.image-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80%;
+    padding: 5%;
+}
+.image-text h3{
+    color: white;
+    font-size: 1.5em;
+}
+.image-text p{
+    color: rgb(219, 213, 213);
+    font-size: 1em;
+}
+/* meet our team ends here */
 
 /* footer starts here */
 .footer-controller {
