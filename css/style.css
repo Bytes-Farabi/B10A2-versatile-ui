@@ -93,6 +93,9 @@ ul {
     font-weight: 600;
     padding: 15px;
 }
+.bar{
+    display: none;
+}
 
 /* banner start here */
 .banner-section {

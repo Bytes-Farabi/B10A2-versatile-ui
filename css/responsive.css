@@ -1,5 +1,8 @@
 @media screen and (max-width: 576px){
-    .menu-side ul{
+    .bar{
+        display: block;
+    }
+    .menu-side{
         display: none;
     }
     .banner-controller {
@@ -56,5 +59,11 @@
     }
     .footer-center:last-child{
         margin-bottom: 5%;
+    }
+    .bmi-controller{
+        display: block;
+    }
+    .bmi-calculator{
+        margin-top: 5%;
     }
 }
