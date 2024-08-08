@@ -66,4 +66,10 @@
     .bmi-calculator{
         margin-top: 5%;
     }
+    .input-area input{
+        width: 100%;
+    }
+    .image-1, .image-2,.image-3, .image-4, .image-5, .image-6{
+        height: 300px;
+    }
 }
