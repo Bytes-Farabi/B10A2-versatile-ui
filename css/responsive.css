@@ -76,4 +76,10 @@
     .image-text{
         padding-top: 50%;
     }
+    .logo-container{
+        display: block;
+    }
+    .logo-container img{
+        margin-top: 5%;
+    }
 }

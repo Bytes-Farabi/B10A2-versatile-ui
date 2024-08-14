@@ -462,6 +462,18 @@ border-radius: 15px;
 }
 /* meet our team ends here */
 
+/* unique section */
+
+.logo-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10%;
+    margin-bottom: 8%;
+}
+.logo-container img{
+    width: 100%;
+}
+
 /* footer starts here */
 .footer-controller {
     display: flex;
