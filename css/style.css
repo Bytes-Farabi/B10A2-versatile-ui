@@ -333,7 +333,7 @@ td, th{
 /* calculate bmi starts here  */
 .bmi-controller{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 5%;
     padding: 5%;
 }
