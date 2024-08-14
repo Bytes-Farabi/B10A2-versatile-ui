@@ -145,6 +145,28 @@ ul {
     padding: 15px;
     color: white;
     font-size: 18px;
+    cursor: pointer;
+}
+.banner-button button:hover{
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    color: white;
+}
+
+.primary-btn button{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: 0px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.primary-btn button:hover{
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    color: white;
 }
 
 /* positioning here */
