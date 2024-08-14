@@ -55,7 +55,9 @@ ul {
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* cdnfonts */
 
+                
 /* header design start here */
 .header-controller {
     display: flex;
@@ -98,6 +100,10 @@ ul {
 }
 
 /* banner start here */
+.banner-text span{
+    font-family: 'Miama', sans-serif;
+    font-style: italic;
+}
 .banner-section {
     margin-top: 95px;
 }
