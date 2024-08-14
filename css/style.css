@@ -274,22 +274,14 @@ ul {
 .bmi-chart h3 {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 900;
-
+    margin-bottom: 15%;
 }
 
 table {
     border-collapse: collapse;
-}
-
-table>thead {
-    color: #FFFFFF;
-}
-
-table td {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 3%;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
@@ -297,6 +289,16 @@ table td {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+}
+
+th{
+    color: white;
+    text-align: left;
+}
+
+td, th{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* calculate bmi starts here  */
